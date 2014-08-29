@@ -1,7 +1,5 @@
 package dekorator;
 
-import składnik.*;
-import napoje.*;
 
 public class StarCafe {
 

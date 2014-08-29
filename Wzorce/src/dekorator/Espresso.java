@@ -1,6 +1,5 @@
-package napoje;
+package dekorator;
 
-import dekorator.Napój;
 
 public class Espresso extends Napój {
 

@@ -1,7 +1,5 @@
-package składnik;
+package dekorator;
 
-import dekorator.Napój;
-import dekorator.SkładnikDekorator;
 
 public class Czekolada extends SkładnikDekorator {
 	Napój napój;
