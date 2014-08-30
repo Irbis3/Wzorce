@@ -1,11 +1,17 @@
 package polecenie;
 
 public class Światło {
+	String pomieszczenie;
+	
+	public Światło(String pomieszczenie){
+		this.pomieszczenie = pomieszczenie;
+	}
+	
 	void włącz(){
-		System.out.println("włączam światło");
+		System.out.println(pomieszczenie + "włączam światło");
 	}
 	
 	void wyłącz(){
-		System.out.println("wyłączam światło");
+		System.out.println(pomieszczenie + "wyłączam światło");
 	}
 }
