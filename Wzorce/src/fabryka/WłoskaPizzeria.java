@@ -9,11 +9,11 @@ public class WłoskaPizzeria extends Pizzeria {
 		Pizza pizza = null;
 		FabrykaSkładnikówPizzy fabryka = new WłoskaFabrykaSkładnikówPizzy();
 		if (type.equals("serowa")) {
-			pizza = new SerowaPizza(fabryka);
+			pizza = new WłoskaSerowaPizza(fabryka);
 			pizza.ustawNazwe("Włoska Pizza Serowa");
 		}
 		else if (type.equals("wegetariańska")) {
-			pizza = new MięsnaPizza(fabryka); 
+			pizza = new WłoskaMięsnaPizza(fabryka); 
 			pizza.ustawNazwe("Włoska Pizza Mięsna");
 		}
 		

@@ -2,9 +2,9 @@ package fabryka;
 
 import fabryka.skladniki.FabrykaSkładnikówPizzy;
 
-public class SerowaPizza extends Pizza {
+public class WłoskaMięsnaPizza extends Pizza {
 
-	public SerowaPizza(FabrykaSkładnikówPizzy fabryka) {
+	public WłoskaMięsnaPizza(FabrykaSkładnikówPizzy fabryka) {
 		super(fabryka);	
 	}
 	
